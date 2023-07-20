@@ -162,6 +162,10 @@ h3 {
   text-align: center;
 }
 
+#middle p {
+  text-align: center;
+}
+
 .menu-all {
   height: 500px;
   width: 800px;
@@ -294,6 +298,6 @@ footer {
   }
 
   header li {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 }
