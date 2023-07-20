@@ -83,6 +83,7 @@ header {
 
 nav ul {
   list-style: none;
+  padding: 5px;
 }
 
 nav li {
@@ -116,6 +117,7 @@ section {
 .first {
   animation-duration: 1s;
   animation-name: fromLeft;
+  text-align: center;
 }
 
 .second {
@@ -124,6 +126,7 @@ section {
   animation-name: fromRight;
   animation-delay: 1s;
   animation-fill-mode: forwards;
+  text-align: center;
 }
 
 #top p {
@@ -164,7 +167,6 @@ h3 {
   width: 800px;
   margin: 0 auto;
   display: flex;
-  /* justify-content: center; */
   border-radius: 2px;
 }
 
@@ -238,4 +240,33 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+@media only screen and (max-width: 850px) {
+  .menu-all {
+    height: 250px;
+    width: 400px;
+  }
+
+  .menu-right ul {
+    height: 80%;
+    line-height: 1.5em;
+    padding: 10px;
+  }
+
+  .menu-right li {
+    font-size: 0.8em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 }
