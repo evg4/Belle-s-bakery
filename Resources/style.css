@@ -269,4 +269,8 @@ footer {
     justify-content: center;
     align-items: center;
   }
+
+  #bottom img {
+    width: 150px;
+  }
 }
