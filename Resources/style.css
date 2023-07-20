@@ -248,6 +248,10 @@ footer {
     width: 400px;
   }
 
+  .menu-all h4 {
+    font-size: 3em;
+  }
+
   .menu-right ul {
     height: 80%;
     line-height: 1.5em;
@@ -272,5 +276,24 @@ footer {
 
   #bottom img {
     width: 150px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .menu-all {
+    height: 187.5px;
+    width: 300px;
+  }
+
+  .menu-all h4 {
+    font-size: 2em;
+  }
+
+  .menu-right li {
+    font-size: 0.6em;
+  }
+
+  header li {
+    font-size: 0.6em;
   }
 }
